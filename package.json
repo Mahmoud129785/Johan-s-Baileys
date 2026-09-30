@@ -6,7 +6,8 @@
   "author": "Carlos",
   "license": "MIT",
   "scripts": {
-    "start": "node lib/index.js"
+    "start": "node lib/index.js",
+    "test": "node test/pairing-code-regression.mjs"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
