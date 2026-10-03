@@ -1,25 +1,36 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mzml-gg/Api-creds.json-/main/IMG-20260320-WA0382.jpg" alt="Balis Banner" width="100%">
-</p>
+# Johan’s Baileys
 
-<div align="center">
-  <a href="https://whatsapp.com/channel/0029Vb7AkG84inotOc8BXE1K">
-    Click Here
-  </a>
-</div>
+نسخة مطوّرة من مكتبة Baileys للربط مع WhatsApp Web، ضمن مستودع Johan.
 
----
+## التثبيت
 
-<div align="center">
-  <strong>𝑻𝒉𝒆𝒔𝒆 𝒃𝒂𝒚𝒍𝒊𝒆𝒔 𝒂𝒓𝒆 𝒎𝒂𝒅𝒆 𝒃𝒚</strong>
-</div>
+يتطلب Node.js 22 أو أحدث:
 
-<h1 align="center">
-  <span style="color:red; font-size:55px;">𝑴𝑶𝑵𝑻𝑬 𝑫𝑬𝑽</span>
-</h1>
+```bash
+npm install github:Mahmoud129785/Johan-s-Baileys
+```
 
-<h3 align="center">𝑴𝑶𝑵𝑻𝑬</h3>
+## الاستخدام
 
----
+```js
+const makeWASocket = require('Baileys').default;
+const sock = makeWASocket({});
+```
 
-🔥 𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 𝑴𝑶𝑵𝑻𝑬 𝑫𝑬𝑽 🔥 
+راجع إعدادات التطبيق الذي يستخدم المكتبة لإدارة جلسة الاتصال ورمز الربط. لا تنشر ملفات الجلسة أو بيانات المصادقة.
+
+## الاختبارات
+
+```bash
+npm test
+```
+
+## قناة Johan
+
+`120363429822131088@newsletter`
+
+## الحقوق والنسب
+
+تعديلات هذه النسخة وتخصيصها: **Johan** ([Mahmoud129785](https://github.com/Mahmoud129785)).
+
+هذا المستودع متفرّع من [baileys-by-hulk](https://github.com/mzml-gg/baileys-by-hulk)، المبني على Baileys. تُحفظ حقوق ومساهمات أصحاب المشروع الأصلي والمساهمين السابقين. ترخيص الحزمة: MIT كما هو مذكور في `package.json`.
